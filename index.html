@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultras Crypto - The Future of Tech</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+</head>
+<body>
+
+    <div class="card-nav-container">
+      <nav class="card-nav">
+        <div class="card-nav-top">
+          <div class="hamburger-menu" role="button" aria-label="Open menu" tabindex="0">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+          </div>
+
+          <button  type="button" class="card-nav-cta-button">
+            <a class="Contact-US-Link" href="#team">CONTACT US</a>
+          </button>
+        </div>
+        <div class="card-nav-content" aria-hidden="true">
+          <div class="nav-card" id="card1">
+              <div class="nav-card-label">About</div>
+              <div class="nav-card-links">
+                  <a href="#about" class="nav-card-link" aria-label="About Ultras Crypto">
+                      <i class="fa-solid fa-arrow-up-right-from-square nav-card-link-icon" aria-hidden="true"></i>
+                      About UltrasCrypto
+                  </a>
+              </div>
+          </div>
+          <div class="nav-card" id="card2">
+              <div class="nav-card-label">Socials</div>
+              <div class="nav-card-links">
+                  <a href="https://www.youtube.com/@UltrasCrypto" target="_blank" class="nav-card-link" aria-label="YouTube">
+                      <i class="fa-solid fa-arrow-up-right-from-square nav-card-link-icon" aria-hidden="true"></i>
+                      YouTube
+                  </a>
+                  <a href="https://t.me/UltrasCryptoChannel" target="_blank" class="nav-card-link" aria-label="Telegram">
+                      <i class="fa-solid fa-arrow-up-right-from-square nav-card-link-icon" aria-hidden="true"></i>
+                      Telegram
+                  </a>
+              </div>
+          </div>
+          <div class="nav-card" id="card3">
+              <div class="nav-card-label">Contact</div>
+              <div class="nav-card-links">
+                  <a href="mailto:contact@ultrascrypto.com" class="nav-card-link" aria-label="Email us">
+                      <i class="fa-solid fa-arrow-up-right-from-square nav-card-link-icon" aria-hidden="true"></i>
+                      Emails
+                  </a>
+                  <a href="https://t.me/UltrasCrypto" class="nav-card-link" aria-label="Brian">
+                      <i class="fa-solid fa-arrow-up-right-from-square nav-card-link-icon" aria-hidden="true"></i>
+                      Talk with the Founder
+                  </a>
+                  <a href="https://t.me/Ultras_Crypto" class="nav-card-link" aria-label="Brian">
+                      <i class="fa-solid fa-arrow-up-right-from-square nav-card-link-icon" aria-hidden="true"></i>
+                      Marketing Manager
+                  </a>
+                  <a href="https://t.me/Chris_Ultrascrypto" class="nav-card-link" aria-label="Brian">
+                      <i class="fa-solid fa-arrow-up-right-from-square nav-card-link-icon" aria-hidden="true"></i>
+                       Business Inquiries
+                  </a>
+                  <a href="https://t.me/DaveUltrasCrypto" class="nav-card-link" aria-label="Brian">
+                      <i class="fa-solid fa-arrow-up-right-from-square nav-card-link-icon" aria-hidden="true"></i>
+                       Business Inquiries
+                  </a>
+              </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    
+
+    <main>
+        <section id="hero">
+            <canvas id="silkCanvas"></canvas>
+            <div class="hero-presentation">
+              <span class="text-rotate" id="rotatingText">
+                <span class="text-rotate-sr-only">YouTube channel about crypto, blockchain, AI, and Web3 with 1.5M subscribers</span>
+                <span class="text-rotate-container" aria-hidden="true">
+                <!-- Will be populated by JavaScript -->
+                </span>
+              </span>
+            </div>
+            <h1 class="hero-text">ULTRAS CRYPTO</h1>
+
+            <div class="hero-buttons">
+                <a href="https://youtube.com/ultrascrypto" target="_blank" class="hero-btn youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span class="btn-text">Subscribe</span>
+                </a>
+                <a href="https://t.me/ultrascrypto" target="_blank" class="hero-btn telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                    <span class="btn-text">Join</span>
+                </a>
+            </div>
+        </section>
+        <!-- ========================
+            LATEST VIDEOS SECTION
+        ========================= -->
+        <section id="latest-videos">
+            <div class="videos-header">
+                <h2>Latest Videos</h2>
+                <p>Check out our most recent uploads on our channel</p>
+            </div>
+            <div class="videos-container" id="videos-container">
+
+                
+            </div>
+        </section>
+
+
+        <section id="team">
+        <div class="team-header">
+            <h2>Meet The Team</h2>
+            <p>The architects of our digital frontier. Tap a card on mobile to enable motion tracking.</p>
+        </div>
+
+        <div class="team-container">
+            <!-- All three cards now use the same assets image -->
+            <div class="pc-card-wrapper"
+                data-avatar-url="assets\1754738349625-edaec775-dda1-4bf5-980e-f40cbce02018.png"
+                data-name="Brian"
+                data-title="Founder & Creator"
+                data-handle="brian"
+                data-contact-url="https://t.me/UltrasCrypto">
+            </div>
+
+            <div class="pc-card-wrapper"
+                data-avatar-url="assets\ultraslogo.jpg"
+                data-name="Chris"
+                data-title="Marketing Manager"
+                data-handle="chris"
+                data-contact-url="https://t.me/Chris_Ultrascrypto">
+            </div>
+
+            <div class="pc-card-wrapper"
+                data-avatar-url="assets\ultraslogo.jpg"
+                data-name="Dave"
+                data-title="Business Inquiries"
+                data-handle="dave"
+                data-contact-url="https://t.me/DaveUltrasCrypto">
+            </div>
+
+        </div>
+        </section>
+
+
+        </section>
+
+        <section id="about">
+            <div class="about-container">
+                <h2>Empowering Your Crypto Journey Since Day One</h2>
+                <p>
+                    Welcome to Ultras Crypto, the leading voice and your trusted guide in the rapidly evolving worlds of cryptocurrency, blockchain, AI, and Web3. With a thriving community of over 1.5 million subscribers, our mission is to cut through the noise and demystify the future of digital assets. We are dedicated to empowering our audience—from curious beginners to seasoned experts—with clear, actionable, and unbiased insights. Through in-depth tutorials, sharp market analysis, honest project reviews, and explorations into the latest NFT and metaverse innovations, we build a smarter, more informed crypto community. At Ultras Crypto, we believe in the power of education and transparency to unlock the potential of this new digital economy for everyone.
+
+                </p>
+                <p class="contact-info">For business inquiries, partnerships, or to connect with us, reach out at: <a href="mailto:ultrascrypto@gmail.com">ultrascrypto@gmail.com</a></p>
+                <p class="contact-info">reach out to Brian at <a href="mailto:brian@ultrascrypto.com">brian@ultrascrypto.com</a> or Chris at <a href="mailto:chris@ultrascrypto.com">chris@ultrascrypto.com</a> </p>
+
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <h3 class="partner-title">Our Partners & Supporters</h3>
+        <div id="logo-loop-container"></div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="silk.js"></script>
+    <script src="latest-videos.js"></script>
+
+</body>
+</html>
